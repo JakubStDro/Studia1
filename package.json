@@ -1,0 +1,27 @@
+{
+  "name": "moj-projekt",
+  "version": "1.0.0",
+  "description": "## Opis projektu Projekt ten został stworzony na potrzeby zajęć Narzędzi do automatyzacji budowy oprogramowania na WSB MERITO.   Jego celem jest [opisz cel projektu, np. „implementacja prostego systemu zarządzania zadaniami” lub „analiza danych z wykorzystaniem algorytmów uczenia maszynowego”].   Projekt pozwala na [wymień najważniejsze funkcje i zastosowania].   W trakcie realizacji projektu wykorzystano technologie: [np. Python, Java, Git, SQL].",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubStDro/Studia1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakubStDro/Studia1/issues"
+  },
+  "homepage": "https://github.com/JakubStDro/Studia1#readme",
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
