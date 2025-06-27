@@ -1,11 +1,11 @@
-function validateForm(name, email, message) {
+function validateContactForm(name, email, message) {
   const errors = [];
 
   if (!name || name.trim().length < 2) {
     errors.push('Imię musi mieć co najmniej 2 znaki');
   }
 
-  if (!email || !email.includes('@')) {
+if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     errors.push('Nieprawidłowy adres email');
   }
 
@@ -19,4 +19,4 @@ function validateForm(name, email, message) {
   };
 }
 
-module.exports = { validateForm };
+module.exports = { validateContactForm };
